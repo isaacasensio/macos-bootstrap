@@ -19,4 +19,6 @@ Add your user to sudoers file so there is no need to request any root password t
 
 Add the following lines to your sudoers file:
 
+  ``
   <USERNAME>  ALL=(ALL) NOPASSWD: ALL
+  ``
