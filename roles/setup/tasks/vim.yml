@@ -1,0 +1,10 @@
+---
+- name: Clone vim config repo
+  git:
+    repo: https://github.com/pivotal/vim-config.git
+    dest: ~/.vim
+
+- name: Install vim config
+  shell:  "~/.vim/bin/install"
+  args:
+    executable: /bin/bash

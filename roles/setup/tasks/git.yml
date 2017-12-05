@@ -1,0 +1,31 @@
+---
+- name: Setup git configuration
+  git_config:
+    name="{{ item.name }}"
+    scope=global
+    value="{{ item.value }}"
+  with_items:
+    - {name: "core.editor", value: "vim" }
+    - {name: "transfer.fsckobjects", value: "true" }
+
+- name: Setup git aliases
+  git_config:
+    name="{{ item.name }}"
+    scope=global
+    value="{{ item.value }}"
+  with_items:
+    - {name: "alias.st",  value: "status" }
+    - {name: "alias.di", value: "diff" }
+    - {name: "alias.co", value: "checkout" }
+    - {name: "alias.ci", value: "commit" }
+    - {name: "alias.br", value: "branch" }
+    - {name: "alias.sta", value: "stash" }
+    - {name: "alias.llog", value: "log --date=local" }
+    - {name: "alias.flog", value: "log --pretty=fuller --decorate" }
+    - {name: "alias.lol", value: "log --graph --decorate --oneline" }
+    - {name: "alias.lola", value: "log --graph --decorate --oneline --all" }
+    - {name: "alias.blog", value: "log origin/master... --left-right" }
+    - {name: "alias.ds", value: "diff --staged" }
+    - {name: "alias.fixup", value: "commit --fixup" }
+    - {name: "alias.squash", value: "commit --squash" }
+    - {name: "alias.unstage", value: "reset HEAD" }

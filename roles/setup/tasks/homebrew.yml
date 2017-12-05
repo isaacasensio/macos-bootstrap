@@ -1,0 +1,34 @@
+---
+
+- name: Install homebrew
+  shell: 'echo | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+  args:
+    creates: /usr/local/bin/brew
+
+- name: Ensure homebrew is updated
+  homebrew:
+    state: latest
+    update_homebrew: yes
+
+- name: Add taps to homebrew
+  homebrew_tap:
+    tap: "{{ item }}"
+  with_items: "{{ homebrew_taps }}"
+
+- name: Install configured homebrew packages
+  homebrew:
+    name: "{{ item.name | default(item) }}"
+    install_options: "{{ item.install_options | default(omit) }}"
+    state: present
+  with_items: "{{ homebrew_installed_packages }}"
+
+- name: Install configured homebrew cask applications.
+  ignore_errors: yes
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+    install_options: "appdir={{ homebrew_cask_appdir }}"
+  with_items: "{{ homebrew_cask_apps }}"
+
+- name: Upgrade all homebrew packages (if configured).
+  homebrew: update_homebrew=yes upgrade_all=yes

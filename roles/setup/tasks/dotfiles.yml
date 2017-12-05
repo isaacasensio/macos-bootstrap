@@ -1,0 +1,29 @@
+---
+- name: Delete dotfiles folder
+  file:
+    path: "~/.dotfiles"
+    state: absent
+
+- name: Delete dotfiles links
+  file:
+    path: "~/{{ item }}"
+    state: absent
+  with_items:
+    - ".bash_profile"
+    - ".inputrc"
+    - "tmux.conf"
+
+- name: Clone my dotfiles
+  git:
+    repo: https://github.com/isaacasensio/dotfiles.git
+    dest: ~/.dotfiles
+
+- name: Create dotfiles links
+  file:
+    src: "~/.dotfiles/{{ item }}"
+    dest: "~/{{ item }}"
+    state: link
+  with_items:
+    - ".bash_profile"
+    - ".inputrc"
+    - "tmux.conf"
