@@ -67,6 +67,7 @@ homebrew_installed_packages:
   - cowsay
   - cksfv
   - cloudfoundry/tap/cloudfoundry-cli
+  - hh
 
 homebrew_cask_appdir: /Users/isaac/Applications
 homebrew_cask_apps:
