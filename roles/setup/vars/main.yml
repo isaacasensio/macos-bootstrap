@@ -100,3 +100,4 @@ homebrew_cask_apps:
   - megasync
   - tunnelbear
   - google-chrome
+  - etcher
