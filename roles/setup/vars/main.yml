@@ -88,7 +88,7 @@ homebrew_cask_apps:
   - postman
   - keybase
   - skype
-  - alfred
+  - alfred2
   - spotify
   - cleanmymac
   - docker
@@ -101,3 +101,6 @@ homebrew_cask_apps:
   - tunnelbear
   - google-chrome
   - etcher
+  - 1password
+  - 1password-cli
+  - arq
