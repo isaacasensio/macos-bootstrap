@@ -1,13 +1,9 @@
-
-# Pre-requirements:
-
-- Latest version of OSX Command Line Tools
-
-
 ## Local provisioning
 
-Run ``make``for local provisioning.
+- Make sure that Ansible is installed running the following command:
+``./bootstrap.sh``
 
+- Run ``make``for local provisioning.
 
 ## Remote provisioning
 
