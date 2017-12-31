@@ -69,12 +69,12 @@ homebrew_installed_packages:
   - cloudfoundry/tap/cloudfoundry-cli
   - hh
   - terraform
+  - npm
 
 homebrew_cask_appdir: /Users/isaac/Applications
 homebrew_cask_apps:
   - java
   - atom
-  # - virtualbox
   - vagrant
   - macdown
   - calibre
@@ -106,3 +106,4 @@ homebrew_cask_apps:
   - 1password-cli
   - arq
   - mplayerx
+  - https://gist.githubusercontent.com/isaacasensio/1866708f34359be613f70751a460d20f/raw/da1ae18a61c0a2aecd868cca869bcb9e25a847e6/carbon-copy-cloner4.rb
