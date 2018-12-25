@@ -1,0 +1,15 @@
+- name: Install vscode plugins
+  shell:  "code --install-extension {{ item }}"
+  args:
+    executable: /bin/bash
+  with_items:
+    - dbaeumer.vscode-eslint
+    - ms-vscode.go
+    - peterjausovec.vscode-docker
+    - hookyqr.beautify
+    - esbenp.prettier-vscode
+    - xabikos.javascriptsnippets
+    - dracula-theme.theme-dracula
+    - k--kato.intellij-idea-keybindings
+    - mauve.terraform
+    - rust-lang.rust

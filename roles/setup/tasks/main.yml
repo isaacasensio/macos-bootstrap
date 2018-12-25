@@ -4,3 +4,4 @@
 - import_tasks: bash.yml
 - import_tasks: vim.yml
 - import_tasks: dotfiles.yml
+- import_tasks: vscode.yml

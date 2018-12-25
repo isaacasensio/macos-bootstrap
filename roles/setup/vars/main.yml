@@ -46,7 +46,6 @@ homebrew_installed_packages:
   - CMake
   - gpg
   - gpg2
-  - gpg-agent
   - pinentry-mac
   - moc
   - lftp
@@ -56,9 +55,9 @@ homebrew_installed_packages:
   - { name: wget, install_options: "--with-iri" }
   - { name: vim, install_options: "--override-system-vi" }
   - { name: gnu-sed, install_options: "--with-default-names" }
-  - homebrew/dupes/grep
-  - homebrew/dupes/openssh
-  - homebrew/dupes/screen
+  - grep
+  - openssh
+  - screen
   - mas
   - watch
   - grc
@@ -75,7 +74,6 @@ homebrew_installed_packages:
 homebrew_cask_appdir: /Users/isaac/Applications
 homebrew_cask_apps:
   - java
-  - atom
   - vagrant
   - macdown
   - calibre
@@ -92,9 +90,9 @@ homebrew_cask_apps:
   - skype
   - alfred2
   - spotify
-  - cleanmymac
+  - cleanmymac3
   - docker
-  - the-unarchiver
+  - keka
   - cyberduck
   - dropbox
   - caffeine
@@ -103,9 +101,11 @@ homebrew_cask_apps:
   - tunnelbear
   - google-chrome
   - etcher
-  - 1password
-  - 1password-cli
+  - 1password6
   - arq
   - mplayerx
-  - https://gist.githubusercontent.com/isaacasensio/1866708f34359be613f70751a460d20f/raw/da1ae18a61c0a2aecd868cca869bcb9e25a847e6/carbon-copy-cloner4.rb
+  - carbon-copy-cloner
   - transmission
+  - pennywise
+  - steam
+  - teamviewer
