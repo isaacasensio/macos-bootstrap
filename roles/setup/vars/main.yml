@@ -70,6 +70,7 @@ homebrew_installed_packages:
   - terraform
   - npm
   - go
+  - cmus
 
 homebrew_cask_appdir: /Users/isaac/Applications
 homebrew_cask_apps:
