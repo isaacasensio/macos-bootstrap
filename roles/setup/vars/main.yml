@@ -101,7 +101,7 @@ homebrew_cask_apps:
   - megasync
   - tunnelbear
   - google-chrome
-  - etcher
+  - balenaetcher
   - 1password6
   - arq
   - mplayerx
