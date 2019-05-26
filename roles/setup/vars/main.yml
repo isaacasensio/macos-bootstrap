@@ -97,7 +97,7 @@ homebrew_cask_apps:
   - cyberduck
   - dropbox
   - caffeine
-  - intellij-idea
+  - intellij-idea-ce
   - megasync
   - tunnelbear
   - google-chrome
