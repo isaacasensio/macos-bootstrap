@@ -89,7 +89,7 @@ homebrew_cask_apps:
   - postman
   - keybase
   - skype
-  - alfred2
+  - alfred
   - spotify
   - cleanmymac3
   - docker
