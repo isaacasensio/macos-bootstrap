@@ -13,6 +13,7 @@
     - ".inputrc"
     - ".tmux.conf"
     - ".vimrc"
+    - ".bashrc"
 
 - name: Clone my dotfiles
   git:
@@ -29,3 +30,4 @@
     - ".inputrc"
     - ".tmux.conf"
     - ".vimrc"
+    - ".bashrc"
