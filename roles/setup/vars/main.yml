@@ -71,6 +71,8 @@ homebrew_installed_packages:
   - npm
   - go
   - cmus
+  - fzf
+  - z
 
 homebrew_cask_appdir: /Users/isaac/Applications
 homebrew_cask_apps:
@@ -101,8 +103,9 @@ homebrew_cask_apps:
   - megasync
   - tunnelbear
   - google-chrome
+  - brave-browser
   - balenaetcher
-  - 1password6
+  - 1password7
   - arq
   - mplayerx
   - carbon-copy-cloner
@@ -110,4 +113,3 @@ homebrew_cask_apps:
   - pennywise
   - steam
   - teamviewer
-  - lepton
