@@ -81,7 +81,7 @@ homebrew_cask_apps:
   - macdown
   - calibre
   - visual-studio-code
-  - iterm2
+  - kitty
   - flycut
   - shiftit
   - flux
@@ -89,9 +89,9 @@ homebrew_cask_apps:
   - vlc
   - slack
   - postman
-  - keybase
   - skype
   - alfred
+  - angry-ip-scanner
   - spotify
   - cleanmymac3
   - docker
@@ -100,16 +100,14 @@ homebrew_cask_apps:
   - dropbox
   - caffeine
   - intellij-idea-ce
+  - goland
+  - font-jetbrains-mono
+  - font-hack-nerd-font
   - megasync
-  - tunnelbear
-  - google-chrome
   - brave-browser
   - balenaetcher
   - 1password7
   - arq
-  - mplayerx
   - carbon-copy-cloner
   - transmission
-  - pennywise
   - steam
-  - teamviewer
