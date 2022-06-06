@@ -78,6 +78,7 @@ homebrew_cask_appdir: /Users/isaac/Applications
 homebrew_cask_apps:
   - java
   - vagrant
+  - virtualbox
   - macdown
   - calibre
   - visual-studio-code
@@ -105,6 +106,7 @@ homebrew_cask_apps:
   - font-hack-nerd-font
   - megasync
   - brave-browser
+  - firefox
   - balenaetcher
   - 1password7
   - arq
@@ -112,3 +114,9 @@ homebrew_cask_apps:
   - transmission
   - steam
   - stats
+  - yacreader
+  - zoom
+  - keyboardcleantool
+  - send-to-kindle
+  - the-unarchiver
+  - skype
