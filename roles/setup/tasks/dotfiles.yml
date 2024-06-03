@@ -9,11 +9,7 @@
     path: "~/{{ item }}"
     state: absent
   with_items:
-    - ".bash_profile"
-    - ".inputrc"
     - ".tmux.conf"
-    - ".vimrc"
-    - ".bashrc"
 
 - name: Clone my dotfiles
   git:
@@ -26,8 +22,4 @@
     dest: "~/{{ item }}"
     state: link
   with_items:
-    - ".bash_profile"
-    - ".inputrc"
     - ".tmux.conf"
-    - ".vimrc"
-    - ".bashrc"
