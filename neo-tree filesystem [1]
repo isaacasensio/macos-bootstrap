@@ -1,0 +1,11 @@
+  ~/projects/osx-bootstrap
+   roles
+    Brewfile                        󰄱 
+    Brewfile.lock.json                
+    LICENSE
+    Makefile
+    README.md
+    bootstrap.sh
+   * inventory
+    main.yml
+   (5 hidden items)
