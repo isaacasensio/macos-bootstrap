@@ -93,9 +93,11 @@ brew "zellij"
 brew "lazydocker"
 brew "lazygit"
 brew "m-cli"
+brew "iperf3"
+brew "f3"
+
 cask "1password"
 cask "calibre"
-
 cask "firefox"
 cask "jdowloader"
 cask "alfred"
@@ -125,10 +127,11 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "intellij-idea-ce"
 cask "tailscale"
-
+cask "openemu"
 cask "slack"
 cask "skype"
 cask "zoom"
+cask "sdformatter"
 
 mas "Gemini", id: 463541543
 mas "HP Smart", id: 1474276998
