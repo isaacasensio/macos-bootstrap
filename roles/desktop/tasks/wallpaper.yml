@@ -1,0 +1,16 @@
+---
+- name: Create a wallpapers directory
+  file:
+    path: "{{ ansible_env.HOME }}/.config/wallpapers"
+    state: directory
+    mode: '0755'
+
+- name: Copy the wallpaper to the wallpapers folder
+  copy:
+    src: "wallpapers/80s-retro-tropical-sunset-by-freepik.jpg"
+    dest: "{{ ansible_env.HOME }}/.config/wallpapers/80s-retro-tropical-sunset-by-freepik.jpg"
+
+- name: Set the wallpaper
+  command: m wallpaper "{{ wallpaper_path }}"
+  vars:
+    wallpaper_path: "{{ ansible_env.HOME }}/.config/wallpapers/80s-retro-tropical-sunset-by-freepik.jpg"

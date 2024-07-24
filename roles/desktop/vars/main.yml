@@ -12,7 +12,7 @@ brew_casks:
   - caffeine
   - cleanmymac
   - cyberduck
-  - flycut
+  # - flycut
   - font-hack-nerd-font
   - font-jetbrains-mono
   - keka

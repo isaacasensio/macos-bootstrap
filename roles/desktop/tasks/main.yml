@@ -2,3 +2,4 @@
 - import_tasks: apps.yml
 - import_tasks: vscode.yml
 - import_tasks: alacritty.yml
+- import_tasks: wallpaper.yml
