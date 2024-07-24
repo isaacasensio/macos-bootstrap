@@ -1,0 +1,20 @@
+---
+- name: Install Homebrew casks
+  community.general.homebrew_cask:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ brew_casks }}"
+
+- name: Install mas using Homebrew
+  community.general.homebrew:
+    name: mas
+    state: present
+
+- name: Ensure mas is installed
+  command: mas version
+  register: mas_version
+  failed_when: mas_version.rc != 0
+
+- name: Install Apple App Store applications using mas
+  command: mas install "{{ item }}"
+  loop: "{{ mas_app_ids }}"

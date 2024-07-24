@@ -1,0 +1,12 @@
+---
+- name: Tap additional Homebrew repositories
+  command: brew tap "{{ item }}"
+  loop: "{{ brew_taps }}"
+  when: ansible_facts['os_family'] == 'Darwin'
+
+- name: Install Homebrew packages
+  community.general.homebrew:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ brew_packages }}"
+  when: ansible_facts['os_family'] == 'Darwin'

@@ -1,0 +1,47 @@
+---
+# List of Homebrew packages to install
+brew_casks:
+  - alacritty
+  - 1password
+  - calibre
+  - firefox
+  - jdownloader
+  - alfred
+  - angry-ip-scanner
+  - balenaetcher
+  - caffeine
+  - cleanmymac
+  - cyberduck
+  - flycut
+  - font-hack-nerd-font
+  - font-jetbrains-mono
+  - keka
+  - obsidian
+  - postman
+  - shiftit
+  - espanso
+  - steam
+  - transmission
+  - vlc
+  - phoenix-slides
+  - docker
+  - vagrant
+  - virtualbox
+  - visual-studio-code
+  - intellij-idea-ce
+  - tailscale
+  - openemu
+  - slack
+  - skype
+  - zoom
+  - sdformatter
+
+mas_app_ids:
+  - 463541543 # Gemini
+  - 1474276998 # HP Smart
+  - 405399194 # Kindle
+  - 905953485 # NordVPN
+  - 407963104 # Pixelmator
+  - 568494494 # Pocket
+  - 904280696 # Things
+  - 1147396723 # WhatsApp
