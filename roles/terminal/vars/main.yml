@@ -4,14 +4,15 @@ brew_taps:
   - bramstein/webfonttools
   - buildpacks/tap
   - homebrew/bundle
+  - FelixKratz/formulae
 
 brew_packages:
   - git
+  - stow
   - gh
   - neovim
   - wget
   - btop
-  - htop
   - python
   - f3
   - iperf3
@@ -74,3 +75,5 @@ brew_packages:
   - powerlevel10k
   - zsh-autosuggestions
   - zsh-syntax-highlighting
+  - midnight-commander
+  - sketchybar

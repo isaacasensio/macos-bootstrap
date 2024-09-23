@@ -1,40 +1,51 @@
 ---
 # List of Homebrew packages to install
 brew_casks:
-  - alacritty
   - 1password
+  - 1password-cli
   - calibre
-  - firefox
-  - jdownloader
-  - alfred
   - angry-ip-scanner
   - balenaetcher
+  - applepi-baker
+  - sdformatter
   - caffeine
   - cleanmymac
   - cyberduck
-  # - flycut
-  - font-hack-nerd-font
-  - font-jetbrains-mono
   - keka
+  - rar
   - obsidian
-  - postman
-  - shiftit
   - espanso
-  - steam
-  - transmission
+  - tailscale
   - vlc
   - phoenix-slides
-  - docker
+  - alfred
+  # Browsers
+  - firefox
+  - tor-browser
+  - google-chrome
+  # Downloads
+  - jdownloader
+  - transmission
+  # Games
+  - steam
+  - openemu
+  # Dev tools
+  - postman
   - vagrant
   - virtualbox
+  - docker
   - visual-studio-code
   - intellij-idea-ce
-  - tailscale
-  - openemu
+  # Communication
   - slack
   - skype
   - zoom
-  - sdformatter
+  # Customizations
+  - aerospace
+  # Terminal
+  - wezterm
+  - font-hack-nerd-font
+  - font-jetbrains-mono
 
 mas_app_ids:
   - 463541543 # Gemini
