@@ -94,17 +94,41 @@ cask "intellij-idea-ce"
 cask "slack"
 cask "skype"
 cask "zoom"
+cask "discord"
 
 # Customizations
 cask "font-meslo-lg-nerd-font"
 cask "sf-symbols"
 cask "font-jetbrains-mono-nerd-font"
 brew "sketchybar"
+cask "hammerspoon"
 
 # Terminal
 cask "wezterm"
+cask "iterm2"
 
+vscode "ms-vscode.cpptools"
+vscode "hashicorp.terraform"
+vscode "rust-lang.rust-analyzer"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "dbaeumer.vscode-eslint"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
+vscode "golang.go"
+vscode "k--kato.intellij-idea-keybindings"
+vscode "ms-vscode.makefile-tools"
+vscode "esbenp.prettier-vscode"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.python"
+vscode "ms-python.debugpy"
+vscode "jsjlogin.zxbasic"
+vscode "enkia.tokyo-night"
 
+# App Store
 mas "Gemini", id: 463541543
 mas "HP Smart", id: 1474276998
 mas "NordVPN", id: 905953485
