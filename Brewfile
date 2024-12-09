@@ -102,6 +102,8 @@ cask "sf-symbols"
 cask "font-jetbrains-mono-nerd-font"
 brew "sketchybar"
 cask "hammerspoon"
+cask "karabiner-elements"
+cask "homerow"
 
 # Terminal
 cask "wezterm"
@@ -126,6 +128,7 @@ vscode "ms-python.vscode-pylance"
 vscode "ms-python.python"
 vscode "ms-python.debugpy"
 vscode "jsjlogin.zxbasic"
+vscode "Catppuccin.CatppuccinVS"
 vscode "enkia.tokyo-night"
 
 # App Store
