@@ -48,8 +48,6 @@ cask "hot"
 brew "htop"
 brew "neofetch"
 
-cask "microsoft-remote-desktop"
-
 # Security
 cask "1password"
 cask "1password-cli"
