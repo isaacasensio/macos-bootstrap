@@ -2,7 +2,7 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
-tap "homebrew/cask-fonts"
+tap "FelixKratz/formulae"
 
 brew "wget"
 brew "fzf"
@@ -27,34 +27,38 @@ brew "bat"
 brew "eza"
 brew "zsh-autosuggestions"
 brew "zsh-vi-mode"
-cask "wezterm"
 
 brew "jq"
 
-
-cask "font-meslo-lg-nerd-font"
-cask "sf-symbols"
-cask "font-jetbrains-mono-nerd-font"
 
 brew "neovim"
 brew "gnu-sed"
 brew "jesseduffield/lazygit/lazygit"
 brew "ripgrep"
 brew "fd"
+brew "midnight-commander"
+brew "iperf3"
+brew "lazydocker"
+brew "mas"
 
 # change macOS audio source from the command-line
 brew "switchaudio-osx"
 
-cask "obsidian"
 cask "hot"
 brew "htop"
 brew "neofetch"
 
 cask "microsoft-remote-desktop"
 
+# Security
 cask "1password"
 cask "1password-cli"
+cask "tailscale"
+
+# Multimedia
 cask "calibre"
+cask "vlc"
+
 cask "balenaetcher"
 cask "applepi-baker"
 cask "sdformatter"
@@ -64,8 +68,6 @@ cask "cyberduck"
 cask "keka"
 cask "rar"
 cask "obsidian"
-cask "tailscale"
-cask "vlc"
 cask "phoenix-slides"
 cask "alfred"
 
@@ -96,8 +98,21 @@ cask "skype"
 cask "zoom"
 
 # Customizations
-cask "aerospace"
+cask "font-meslo-lg-nerd-font"
+cask "sf-symbols"
+cask "font-jetbrains-mono-nerd-font"
 brew "sketchybar"
 
 # Terminal
 cask "wezterm"
+
+
+mas "Gemini", id: 463541543
+mas "HP Smart", id: 1474276998
+mas "NordVPN", id: 905953485
+mas "Pixelmator", id: 407963104
+mas "Pocket", id: 568494494
+mas "Things", id: 904280696
+mas "WhatsApp", id: 310633997
+mas "Infuse", id: 1136220934
+mas "Windows App", id: 1295203466 # Former Microsgot Remote desktop
