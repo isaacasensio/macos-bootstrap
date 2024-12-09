@@ -128,7 +128,7 @@ vscode "ms-python.vscode-pylance"
 vscode "ms-python.python"
 vscode "ms-python.debugpy"
 vscode "jsjlogin.zxbasic"
-vscode "Catppuccin.CatppuccinVS"
+vscode "catppuccin.catppuccin-vsc"
 vscode "enkia.tokyo-night"
 
 # App Store
