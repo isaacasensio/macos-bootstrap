@@ -45,7 +45,7 @@ brew "mas"
 brew "switchaudio-osx"
 
 cask "hot"
-brew "htop"
+brew "btop"
 brew "neofetch"
 
 # Security
