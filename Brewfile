@@ -109,6 +109,7 @@ cask "homerow"
 # Terminal
 cask "wezterm"
 cask "iterm2"
+cask "kitty"
 
 vscode "ms-vscode.cpptools"
 vscode "hashicorp.terraform"
