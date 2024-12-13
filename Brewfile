@@ -7,6 +7,8 @@ tap "FelixKratz/formulae"
 brew "wget"
 brew "fzf"
 brew "git"
+brew "z"
+
 # yarn requires node
 brew "node"
 brew "starship"
