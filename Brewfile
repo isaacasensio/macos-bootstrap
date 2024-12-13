@@ -16,6 +16,7 @@ brew "tmux"
 brew "tree"
 brew "watch"
 brew "stow"
+brew "jandedobbeleer/oh-my-posh/oh-my-posh"
 
 brew "ansible"
 brew "ansible-lint"
