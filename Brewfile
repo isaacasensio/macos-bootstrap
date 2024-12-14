@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
 tap "FelixKratz/formulae"
+tap "homebrew/cask-fonts"
 
 brew "wget"
 brew "fzf"
@@ -32,6 +33,8 @@ brew "zsh-autosuggestions"
 brew "zsh-vi-mode"
 
 brew "jq"
+# github cli. Required by sketchybar
+brew "gh"
 
 
 brew "neovim"
@@ -44,7 +47,7 @@ brew "iperf3"
 brew "lazydocker"
 brew "mas"
 
-# change macOS audio source from the command-line
+# change macOS audio source from the command-line. Required by sketchybar
 brew "switchaudio-osx"
 
 cask "hot"
@@ -101,6 +104,7 @@ cask "discord"
 
 # Customizations
 cask "font-meslo-lg-nerd-font"
+cask "font-hack-nerd-font"
 cask "sf-symbols"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-space-mono-nerd-font"
