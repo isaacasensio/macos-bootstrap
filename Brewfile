@@ -112,6 +112,7 @@ brew "sketchybar"
 cask "hammerspoon"
 cask "karabiner-elements"
 cask "homerow"
+brew "m-cli" # Swiss Army Knife for macOS
 
 # Terminal
 cask "wezterm"
