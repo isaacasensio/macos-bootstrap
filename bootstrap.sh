@@ -33,4 +33,7 @@ echo "Increase macOS key repeat rate..."
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 20
 
+# Change default folder for screenshots
+defaults write com.apple.screencapture location "~/Downloads"
+
 echo "This change requires a reboot"
