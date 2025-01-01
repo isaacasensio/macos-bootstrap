@@ -26,14 +26,15 @@ echo "Updating Homebrew..."
 brew update
 
 # Auto hide dock
+echo "Auto hiding the macOS dock..."
 osascript -e 'tell application "System Events" to set autohide menu bar of dock preferences to true'
 
 # Increase macOS key repeat rate
 echo "Increase macOS key repeat rate..."
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 20
+echo "This change requires a reboot"
 
 # Change default folder for screenshots
+echo "Changing the default screenshot location from desktop to downloads folder..."
 defaults write com.apple.screencapture location "~/Downloads"
-
-echo "This change requires a reboot"

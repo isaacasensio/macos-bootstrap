@@ -1,20 +1,7 @@
-## Local provisioning
+## Repo overview
 
-- Make sure that Ansible is installed running the following command:
-``./bootstrap.sh``
+This repo is where I keep track of all the macOS applications and tools I use.
 
-- Run ``make``for local provisioning.
+I use [Homebrew](https://brew.sh/) as a package manager to easilly install all the required software.
 
-## Remote provisioning
-
-Copy your public key on your remote machine as an authorized key. Its purpose is to provision access without requiring a password for each login:
-
-  ``ssh-copy-id -i ~/.ssh/id_rsa.pub <USERNAME>@<REMOTE-IP>``
-
-Add your user to sudoers file so there is no need to request any root password to install any app during the provisioning:
-
-  ``sudo visudo``
-
-Add the following lines to your sudoers file:
-
-  ``<USERNAME>  ALL=(ALL) NOPASSWD: ALL``
+For any additional customization, please check my [dotfiles](https://github.com/isaacasensio/dotfiles) repo.
