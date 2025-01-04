@@ -119,6 +119,7 @@ brew "m-cli" # Swiss Army Knife for macOS
 cask "wezterm"
 cask "iterm2"
 cask "kitty"
+cask "ghostty"
 
 vscode "ms-vscode.cpptools"
 vscode "hashicorp.terraform"
