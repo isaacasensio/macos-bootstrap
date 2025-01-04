@@ -25,6 +25,10 @@ fi
 echo "Updating Homebrew..."
 brew update
 
+# Installing software
+echo "Installing software..."
+brew bundle
+
 # Auto hide dock
 echo "Auto hiding the macOS dock..."
 osascript -e 'tell application "System Events" to set autohide menu bar of dock preferences to true'
