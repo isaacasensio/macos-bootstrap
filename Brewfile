@@ -74,6 +74,7 @@ cask "rar"
 cask "obsidian"
 cask "phoenix-slides"
 cask "alfred"
+cask "raycast"
 
 # Browsers
 cask "firefox"
