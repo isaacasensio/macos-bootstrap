@@ -95,6 +95,7 @@ cask "virtualbox"
 cask "docker"
 cask "visual-studio-code"
 cask "intellij-idea-ce"
+cask "chatgpt" if Hardware::CPU.arm?
 
 # Communication
 cask "slack"
@@ -103,6 +104,7 @@ cask "zoom"
 cask "discord"
 
 # Customizations
+brew "koekeishiya/formulae/yabai"
 cask "font-meslo-lg-nerd-font"
 cask "font-hack-nerd-font"
 cask "sf-symbols"
