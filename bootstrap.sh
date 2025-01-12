@@ -27,7 +27,13 @@ brew update
 
 # Installing software
 echo "Installing software..."
-brew bundle
+brew bundle install
+
+# check for issues
+brew doctor
+
+# display outdated apps and auto-update status
+brew cu --include-mas
 
 # Auto hide dock
 echo "Auto hiding the macOS dock..."

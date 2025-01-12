@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
 tap "FelixKratz/formulae"
+tap "buo/cask-upgrade"
 
 brew "wget"
 brew "fzf"
@@ -51,7 +52,7 @@ brew "switchaudio-osx"
 
 cask "hot"
 brew "btop"
-brew "neofetch"
+brew "macchina" # system information frontend [https://github.com/Macchina-CLI/macchina]
 
 # Security
 cask "1password"
