@@ -33,8 +33,8 @@ brew "zsh-autosuggestions"
 brew "zsh-vi-mode"
 
 brew "jq"
-# github cli. Required by sketchybar
-brew "gh"
+brew "yq" # a lightweight and portable command-line YAML, JSON and XML processor. It uses jq underneath.
+brew "gh" # github cli. Required by sketchybar
 
 
 brew "neovim"
@@ -46,6 +46,7 @@ brew "midnight-commander"
 brew "iperf3"
 brew "lazydocker"
 brew "mas"
+brew "yazi" # Blazing Fast Terminal File Manager
 
 # change macOS audio source from the command-line. Required by sketchybar
 brew "switchaudio-osx"
@@ -53,6 +54,7 @@ brew "switchaudio-osx"
 cask "hot"
 brew "btop"
 brew "macchina" # system information frontend [https://github.com/Macchina-CLI/macchina]
+brew "vladkens/tap/macmon" if Hardware::CPU.arm? # Mac Usage Monitor in Terminal
 
 # Security
 cask "1password"
