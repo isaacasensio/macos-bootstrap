@@ -17,7 +17,9 @@ brew "tmux"
 brew "tree"
 brew "watch"
 brew "stow"
-cask "jandedobbeleer/oh-my-posh/oh-my-posh"
+brew "sesh"
+brew "gum"
+brew "jandedobbeleer/oh-my-posh/oh-my-posh"
 
 brew "ansible"
 brew "ansible-lint"
@@ -29,7 +31,9 @@ brew "zoxide"
 brew "bat"
 # Replacement for ls
 brew "eza"
+brew "zsh-autocomplete"
 brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 brew "zsh-vi-mode"
 
 brew "jq"
@@ -54,7 +58,7 @@ brew "switchaudio-osx"
 cask "hot"
 brew "btop"
 brew "macchina" # system information frontend [https://github.com/Macchina-CLI/macchina]
-brew "vladkens/tap/macmon" if Hardware::CPU.arm? # Mac Usage Monitor in Terminal
+brew "macmon" if Hardware::CPU.arm? # Mac Usage Monitor in Terminal
 
 # Security
 cask "1password"
@@ -64,6 +68,7 @@ cask "tailscale"
 # Multimedia
 cask "calibre"
 cask "vlc"
+brew "musikcube" # terminal-based audio player
 
 cask "balenaetcher"
 cask "applepi-baker"
