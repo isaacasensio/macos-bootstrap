@@ -108,11 +108,19 @@ cask "discord"
 
 # Customizations
 brew "koekeishiya/formulae/yabai"
+brew "powerlevel10k"
+cask "font-caskaydia-cove-nerd-font"
+cask "font-space-mono-nerd-font"
+cask "font-symbols-only-nerd-font"
+
 cask "font-meslo-lg-nerd-font"
 cask "font-hack-nerd-font"
+cask "font-fira-code-nerd-font"
 cask "sf-symbols"
 cask "font-jetbrains-mono-nerd-font"
+cask "font-jetbrains-mono"
 cask "font-space-mono-nerd-font"
+
 brew "sketchybar"
 cask "hammerspoon"
 cask "karabiner-elements"
