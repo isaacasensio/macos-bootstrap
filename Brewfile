@@ -12,6 +12,7 @@ brew "z"
 
 # yarn requires node
 brew "node"
+brew "tsm"
 brew "starship"
 brew "tmux"
 brew "tree"
