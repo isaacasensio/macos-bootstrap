@@ -81,7 +81,6 @@ cask "keka"
 cask "rar"
 cask "obsidian"
 cask "phoenix-slides"
-cask "alfred"
 cask "raycast"
 
 # Browsers
@@ -135,7 +134,6 @@ cask "bettertouchtool"
 brew "m-cli" # Swiss Army Knife for macOS
 
 # Terminal
-cask "wezterm"
 cask "iterm2"
 cask "kitty"
 cask "ghostty"
