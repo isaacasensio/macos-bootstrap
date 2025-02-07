@@ -12,7 +12,6 @@ brew "z"
 
 # yarn requires node
 brew "node"
-brew "tsm"
 brew "starship"
 brew "tmux"
 brew "tree"
@@ -95,6 +94,7 @@ cask "transmission"
 # Games
 cask "steam"
 cask "openemu"
+cask "86box"
 
 # Dev tools
 cask "postman"
