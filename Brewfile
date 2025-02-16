@@ -72,6 +72,7 @@ brew "musikcube" # terminal-based audio player
 
 cask "balenaetcher"
 cask "applepi-baker"
+cask "raspberry-pi-imager"
 cask "sdformatter"
 cask "caffeine"
 cask "cleanmymac"
