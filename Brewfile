@@ -38,7 +38,7 @@ brew "zsh-vi-mode"
 
 brew "jq"
 brew "yq" # a lightweight and portable command-line YAML, JSON and XML processor. It uses jq underneath.
-brew "gh" # github cli. Required by sketchybar
+brew "gh" # github cli.
 
 
 brew "neovim"
@@ -52,7 +52,7 @@ brew "lazydocker"
 brew "mas"
 brew "yazi" # Blazing Fast Terminal File Manager
 
-# change macOS audio source from the command-line. Required by sketchybar
+# change macOS audio source from the command-line.
 brew "switchaudio-osx"
 
 cask "hot"
@@ -127,7 +127,7 @@ cask "font-jetbrains-mono-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-space-mono-nerd-font"
 
-brew "sketchybar"
+brew "uebersicht" # required to install simple-bar
 cask "hammerspoon"
 cask "karabiner-elements"
 cask "homerow"
