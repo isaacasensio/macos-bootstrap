@@ -81,7 +81,7 @@ cask "keka"
 cask "rar"
 cask "obsidian"
 cask "phoenix-slides"
-cask "raycast"
+cask "alfred"
 
 # Browsers
 cask "firefox"
