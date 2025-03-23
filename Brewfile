@@ -69,6 +69,7 @@ cask "tailscale"
 cask "calibre"
 cask "vlc"
 brew "musikcube" # terminal-based audio player
+cask "burn"
 
 cask "balenaetcher"
 cask "applepi-baker"
