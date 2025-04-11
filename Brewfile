@@ -19,6 +19,7 @@ brew "watch"
 brew "stow"
 brew "sesh"
 brew "gum"
+brew "pv"
 brew "jandedobbeleer/oh-my-posh/oh-my-posh"
 
 brew "ansible"
