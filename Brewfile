@@ -71,6 +71,7 @@ cask "calibre"
 cask "vlc"
 brew "musikcube" # terminal-based audio player
 cask "burn"
+cask "ocp"
 
 cask "balenaetcher"
 cask "applepi-baker"
@@ -84,6 +85,7 @@ cask "rar"
 cask "obsidian"
 cask "phoenix-slides"
 cask "alfred"
+cask "rectangle"
 
 # Browsers
 cask "firefox"
@@ -101,7 +103,6 @@ cask "86box"
 
 # Dev tools
 cask "postman"
-cask "vagrant"
 cask "virtualbox"
 cask "docker"
 cask "visual-studio-code"
