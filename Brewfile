@@ -10,10 +10,9 @@ brew "fzf"
 brew "git"
 brew "z"
 
-# yarn requires node
-brew "node"
-brew "starship"
-brew "tmux"
+# TUI for brew installed packages
+brew gromgit/brewtils/taproom
+
 brew "tree"
 brew "watch"
 brew "stow"
@@ -22,39 +21,22 @@ brew "gum"
 brew "pv"
 brew "jandedobbeleer/oh-my-posh/oh-my-posh"
 
-brew "ansible"
-brew "ansible-lint"
-
-# karabiner uses yarn to install depencencies
-brew "yarn"
 brew "zoxide"
-# Cat with wings
 brew "bat"
-# Replacement for ls
 brew "eza"
 brew "zsh-autocomplete"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "zsh-vi-mode"
 
-brew "jq"
-brew "yq" # a lightweight and portable command-line YAML, JSON and XML processor. It uses jq underneath.
-brew "gh" # github cli.
-
-
 brew "neovim"
 brew "gnu-sed"
-brew "jesseduffield/lazygit/lazygit"
 brew "ripgrep"
-brew "fd"
-brew "midnight-commander"
 brew "iperf3"
-brew "lazydocker"
-brew "mas"
-brew "yazi" # Blazing Fast Terminal File Manager
 
-# change macOS audio source from the command-line.
-brew "switchaudio-osx"
+# File browsers
+brew "yazi"
+brew "midnight-commander"
 
 cask "hot"
 brew "btop"
@@ -65,6 +47,7 @@ brew "macmon" if Hardware::CPU.arm? # Mac Usage Monitor in Terminal
 cask "1password"
 cask "1password-cli"
 cask "tailscale"
+brew "clamav" # antivirus
 
 # Multimedia
 cask "calibre"
@@ -72,6 +55,9 @@ cask "vlc"
 brew "musikcube" # terminal-based audio player
 cask "burn"
 cask "ocp"
+cask "handbrake-app"
+brew "switchaudio-osx"
+
 
 cask "balenaetcher"
 cask "applepi-baker"
@@ -107,17 +93,27 @@ cask "virtualbox"
 cask "docker"
 cask "visual-studio-code"
 cask "intellij-idea-ce"
-cask "chatgpt" if Hardware::CPU.arm?
+cask "chatgpt"
+brew "gh"
+brew "lazydocker"
+brew "yq"
+brew "jq"
+brew "just"
+brew "tmux"
+brew "node"
+brew "yarn"
+brew "ansible"
+brew "ansible-lint"
+brew "jesseduffield/lazygit/lazygit"
 
 # Communication
 cask "slack"
-cask "skype"
 cask "zoom"
 cask "discord"
 
 # Customizations
-brew "koekeishiya/formulae/yabai"
 brew "powerlevel10k"
+brew "starship"
 cask "font-caskaydia-cove-nerd-font"
 cask "font-space-mono-nerd-font"
 cask "font-symbols-only-nerd-font"
@@ -130,16 +126,12 @@ cask "font-jetbrains-mono-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-space-mono-nerd-font"
 
-brew "uebersicht" # required to install simple-bar
-cask "hammerspoon"
 cask "karabiner-elements"
-cask "homerow"
 cask "bettertouchtool"
 brew "m-cli" # Swiss Army Knife for macOS
 
 # Terminal
 cask "iterm2"
-cask "kitty"
 cask "ghostty"
 
 vscode "ms-vscode.cpptools"
@@ -151,8 +143,6 @@ vscode "ms-vscode.cmake-tools"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "dbaeumer.vscode-eslint"
-vscode "GitHub.copilot"
-vscode "GitHub.copilot-chat"
 vscode "golang.go"
 vscode "k--kato.intellij-idea-keybindings"
 vscode "ms-vscode.makefile-tools"
@@ -165,6 +155,7 @@ vscode "catppuccin.catppuccin-vsc"
 vscode "enkia.tokyo-night"
 
 # App Store
+brew "mas"
 mas "Gemini", id: 463541543
 mas "HP Smart", id: 1474276998
 mas "NordVPN", id: 905953485
@@ -173,4 +164,5 @@ mas "Pocket", id: 568494494
 mas "Things", id: 904280696
 mas "WhatsApp", id: 310633997
 mas "Infuse", id: 1136220934
-mas "Windows App", id: 1295203466 # Former Microsgot Remote desktop
+mas "Windows App", id: 1295203466 # Former Microsoft Remote desktop
+
