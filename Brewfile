@@ -40,13 +40,13 @@ brew "midnight-commander"
 
 cask "hot"
 brew "btop"
-brew "macchina" # system information frontend [https://github.com/Macchina-CLI/macchina]
+brew "fastfetch"
 brew "macmon" if Hardware::CPU.arm? # Mac Usage Monitor in Terminal
 
 # Security
 cask "1password"
 cask "1password-cli"
-cask "tailscale"
+cask "tailscale-app"
 brew "clamav" # antivirus
 
 # Multimedia
@@ -105,6 +105,7 @@ brew "yarn"
 brew "ansible"
 brew "ansible-lint"
 brew "jesseduffield/lazygit/lazygit"
+brew "terraform"
 
 # Communication
 cask "slack"
