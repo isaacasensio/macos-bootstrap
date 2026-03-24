@@ -106,6 +106,7 @@ brew "ansible"
 brew "ansible-lint"
 brew "jesseduffield/lazygit/lazygit"
 brew "terraform"
+brew "glow"
 
 # Communication
 cask "slack"
@@ -127,8 +128,6 @@ cask "font-jetbrains-mono-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-space-mono-nerd-font"
 
-cask "karabiner-elements"
-cask "bettertouchtool"
 brew "m-cli" # Swiss Army Knife for macOS
 
 # Terminal
